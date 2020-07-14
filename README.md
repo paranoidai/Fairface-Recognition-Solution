@@ -1,6 +1,6 @@
-#Fairface-Recognition-Solution
+# Fairface-Recognition-Solution
 
-##Baseline
+## Baseline
 
 Thie repo is modified from [insightface](https://github.com/deepinsight/insightface)
 
