@@ -6,7 +6,7 @@ Thie repo is modified from [insightface](https://github.com/deepinsight/insightf
 
 ### Training Data
 
-All traing face images are aligned by [MTCNN](https://kpzhang93.github.io/MTCNN_face_detection_alignment/index.html) and cropped to 112x112:
+All training face images are aligned by [MTCNN](https://kpzhang93.github.io/MTCNN_face_detection_alignment/index.html) and cropped to 112x112:
 
 Please check [Dataset-Zoo](https://github.com/deepinsight/insightface/wiki/Dataset-Zoo) for detail information and dataset downloading.
 
@@ -69,7 +69,7 @@ Download the trainging set [fairface](http://chalearnlap.cvc.uab.es/dataset/36/d
 
 
 
-1. Download the pretrained model from [model-zoo](https://1drv.ms/u/s!AoNuuwAvxk2VgztVljlkgMhub_Uy?e=0eHl7D) and test dataset from [fairface](http://chalearnlap.cvc.uab.es/dataset/36/description/) , put the model in *`$Fairface-Recognition-Solution-ROOT/test/final_eval_models`* and data in *`$Fairface-Recognition-Solution-ROOT/test/TestData/tmp_data`* and run 
+1. Download the pretrained model from [model-zoo](https://1drv.ms/u/s!AoNuuwAvxk2Vgz03Wptn25V8hji1?e=GeY271) and test dataset from [fairface](http://chalearnlap.cvc.uab.es/dataset/36/description/) , put the model in *`$Fairface-Recognition-Solution-ROOT/test/final_eval_models`* and data in *`$Fairface-Recognition-Solution-ROOT/test/TestData/tmp_data`* and run 
 ```Shell
 ./do.sh
 ```
