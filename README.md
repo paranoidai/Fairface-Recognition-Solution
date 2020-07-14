@@ -1,4 +1,4 @@
-rface-Recognition-Solution
+Fairface-Recognition-Solution
 
 ##Baseline
 
@@ -11,14 +11,14 @@ All traing face images are aligned by [MTCNN](https://kpzhang93.github.io/MTCNN_
 Please check [Dataset-Zoo](https://github.com/deepinsight/insightface/wiki/Dataset-Zoo) for detail information and dataset downloading.
 
 
-* Please check *src/data/face2rec2.py* on how to build a binary face dataset.
+* Please check *data_process/face2rec2.py* on how to build a binary face dataset.
 
 ### Train
 
 1. Install `MXNet` with GPU support (Python 3.5).
 
     ```
-pip install mxnet-cu100
+    pip install mxnet-cu100
 
     ```
 2. Download the training set [MS1M-Arcface](https://www.dropbox.com/s/wpx6tqjf0y5mf6r/faces_ms1m-refine-v2_112x112.zip?dl=0) and place it in *`$Fairface-Recognition-Solution-ROOT/train/datasets/`*. Each training dataset includes at least following 6 files:
@@ -43,7 +43,7 @@ The first three files are the training dataset while the last three files are ve
     ```
 
 4. Multi-step fine-tune the above Softmax model .   
-Download the trainging set [fairface](http://chalearnlap.cvc.uab.es/dataset/36/description/) and then  build a binary face dataset from it. Please refer to data_process/face2rec2.py, then you can run 
+Download the trainging set [fairface](http://chalearnlap.cvc.uab.es/dataset/36/description/) and then  build a binary face dataset from it, then you can run 
     ```Shell
     ./fairface_finetune.sh
     ```
